@@ -1,12 +1,8 @@
-# Ispconfig-install
-Install in Ubuntu, Debian, Centos
+# Install ISPConfig in LEMP Debian 11
 
-For Debian 11
-=============
-1. Prepare Your System
+# Commands:
 
-   wget https://github.com/fahim1030/ispconfig-install/blob/2caea4f05bff1eddec122b81ef74fd8dc5e391f0/lemp.sh && chmod +x lemp.sh && ./lemp.sh
-
-3. Install ISPConfig
-
-   wget https://github.com/fahim1030/ispconfig-install/blob/2caea4f05bff1eddec122b81ef74fd8dc5e391f0/ispconfig.sh && chmod +x ispconfig.sh && ./ispconfig.sh   
+apt-get install git git-core -y && git clone https://github.com/fahim1030/ispconfig-debian-install && cd ispconfig-debian-install
+chmod +x lemp.sh && chmod +x ispconfig.sh
+./lemp.sh
+./ispconfig.sh
