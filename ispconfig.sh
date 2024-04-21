@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Download ISPConfig
 cd /tmp/ispconfig
 wget -O ispconfig.tar.gz https://www.ispconfig.org/downloads/ISPConfig-3-stable.tar.gz
